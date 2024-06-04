@@ -11,7 +11,6 @@ class CharController {
     this.randomChar = new RandomChar();
     await this.#intervalForRandomChar();
     return this.randomLetterLoop();
-
   }
 
   #intervalForRandomChar = () => {
