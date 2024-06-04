@@ -9,17 +9,16 @@ class CharController {
 
   randomLetterLoop = async () => {
     this.randomChar = new RandomChar();
-    const letterSuccessfullyOnScreen = await this.#intervalForRandomChar();
-    if (letterSuccessfullyOnScreen) {
-      return this.randomLetterLoop();
-    }
+    await this.#intervalForRandomChar();
+    return this.randomLetterLoop();
+
   }
 
   #intervalForRandomChar = () => {
     return new Promise((resolve) => {
       setTimeout(() => {
         this.domElem.insertToDomElement({elem: "body", content: this.randomChar.char})
-        resolve(true);
+        resolve();
       }, 100);
     });
   }
