@@ -5,7 +5,7 @@ I created this code kata as it will serve the purpose of a bigger project.
 
 ## Instructions
 
-Create a paragraph that self actualizes with one random character at a given speed (10 times per second)
+Create a paragraph that self actualizes with one random character at a given speed (10 times per second in my case, but this could be whatever you want)
 
 ## Why did I do it as a Code Kata and why is it public ?
 
