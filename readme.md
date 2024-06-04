@@ -13,7 +13,7 @@ Create a paragraph that self actualizes with one random character at a given spe
 
 - The bigger project I have is an **animation template** on text that makes letters come **one by one** to the screen with random character apparition prior to the character that is actually part of the text. It's an animation you often see in movies, which you can easily do using After Effects, but this time, **no video format**.
 
-- This **Dynamic Letter Animation** is basically one sub-problem of the animation I'm trying to create. I could not possibly do that whole animation in one step as I see it with a triple recursion.
+- This **Dynamic Letter Animation** is basically one sub-problem of the animation I'm trying to create. I could not possibly do that whole animation in one step as I see it with a triple recursion. This makes a simple fun code-kata to solve if you want to.
 
 https://imgur.com/01xFyub Here's a screenshot of my **code performance**
 
